@@ -1,0 +1,71 @@
+
+.nav-container{
+  border-radius: 0px;
+  background-color: #fff;
+  border: 0px solid #000;
+  //包裹input的li
+  .search-wrap{
+    width: 60%;
+    .search-form{
+      width: 100%;
+      .search-div{
+        width: 80%;
+        //改变margin-right后响应式布局失效
+        #search{
+          position: absolute;
+          right:2px;
+          top: 9px;
+        }
+        .search-input{
+          width: 100%;
+          border: 0px solid #000;
+          border-bottom: 1px solid #d9dde1;
+          box-shadow: none;
+          border-radius: 0px;
+        }
+      }
+    }
+  }
+  //注册按钮
+  .signup-btn{
+    font-size: 14px;
+    color: #787b82;
+  }
+  .menu-wrap{
+    position: relative;
+    left: 150px;
+    a{
+      font-size: 16px;
+    }
+  }
+}
+//购物车按钮
+.icon-shopping{
+  position: absolute;
+  top: 15px;
+  left: -17px;
+  font-size: 20px;
+}
+//购物车盒子
+.shopping-box{
+  position: absolute;
+  box-shadow:none;
+  border-radius: 0px;
+  box-sizing: border-box;
+  width: 350px;
+  padding: 0px 12px;
+  .shopping-title-box{
+    padding:20px 12px;
+    border-bottom: 1px solid #d9dde1;
+    h4{
+      float: left;
+      line-height: 16px;
+      font-size: 16px;
+    }
+    h6{
+      float: right;
+      line-height: 16px;
+      font-size: 14px;
+    }
+  }
+}

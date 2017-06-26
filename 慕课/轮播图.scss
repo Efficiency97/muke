@@ -1,0 +1,43 @@
+.main{
+  width: 1200px;
+  height: 460px;
+  border: 1px solid #000;
+  margin: 100px auto;
+  overflow: hidden;
+  .menucontent{
+    background-color: rgba(7,17,27,.5);
+    opacity: 0.5;
+    width: 224px;
+    height: 100%;
+    z-index:2;
+    padding-top: 6px;
+    position: absolute;
+    overflow: hidden;
+    .item{
+      height: 64px;
+      line-height: 64px;
+      font-size: 16px;
+      padding: 0 24px;
+      position: relative;
+      left: 0;
+      top: 0;
+      a{
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 0 6px;
+        height: 63px;
+        border-bottom:1px solid rgba(255,255,255,.2);
+      }
+      span{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        font-size:16px;
+        color: #ffffff;
+        position: absolute;
+
+      }
+    }
+  }
+}

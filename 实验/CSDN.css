@@ -1,0 +1,50 @@
+/*
+Error: Invalid CSS after "30px": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of CSDN.less
+
+1: input{
+2:     height: 30px;
+3: };
+
+Backtrace:
+CSDN.less:2
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/lexer.rb:229:in `expected!'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/parser.rb:744:in `assert_done'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/parser.rb:76:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script/parser.rb:240:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/script.rb:27:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:1151:in `parse_script'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:721:in `parse_property'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:692:in `parse_property_or_rule'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:658:in `parse_line'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:536:in `build_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:545:in `block in build_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:538:in `build_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:555:in `block in append_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:554:in `append_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:409:in `_to_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/plugin.rb:82:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.4.23/bin/scss:13:in `<top (required)>'
+/usr/local/bin/scss:23:in `load'
+/usr/local/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"30px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of CSDN.less\A \A 1: input{\A 2:     height: 30px;\A 3: };"; }
