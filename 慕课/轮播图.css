@@ -1,39 +1,112 @@
 .main {
   width: 1200px;
   height: 460px;
-  border: 1px solid #000;
+  box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.1);
   margin: 100px auto;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
   .main .menucontent {
+    position: relative;
     background-color: rgba(7, 17, 27, 0.5);
     opacity: 0.5;
     width: 224px;
     height: 100%;
-    z-index: 2;
-    padding-top: 6px;
-    position: absolute;
-    overflow: hidden; }
+    z-index: 23;
+    padding: 5px 20px; }
     .main .menucontent .item {
-      height: 64px;
-      line-height: 64px;
-      font-size: 16px;
-      padding: 0 24px;
-      position: relative;
-      left: 0;
-      top: 0; }
+      height: 65px;
+      line-height: 65px;
+      cursor: pointer;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
       .main .menucontent .item a {
-        display: inline-block;
-        color: #ffffff;
         text-decoration: none;
-        padding: 0 6px;
-        height: 63px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
-      .main .menucontent .item span {
         display: inline-block;
-        width: 20px;
-        height: 20px;
-        font-size: 16px;
         color: #ffffff;
-        position: absolute; }
+        height: 64px;
+        padding: 0px 8px; }
+      .main .menucontent .item .name {
+        font-size: 16px; }
+      .main .menucontent .item .icon-row {
+        font-size: 14px;
+        position: relative;
+        color: #ffffff;
+        left: 100px;
+        font-weight: 100; }
+
+.banner-content .bannerslide {
+  position: absolute;
+  width: 1200px;
+  height: 460px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  z-index: -100; }
+  .banner-content .bannerslide .inner {
+    width: 1200px;
+    margin: auto;
+    position: relative; }
+.banner-content .show {
+  display: block; }
+
+.banner-dots {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  right: 0;
+  text-align: right;
+  height: 13px;
+  padding-right: 24px;
+  line-height: 12px; }
+  .banner-dots span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgba(7, 17, 27, 0.4);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.8) inset;
+    margin-left: 8px; }
+  .banner-dots .active {
+    box-shadow: 0 0 0 2px rgba(7, 17, 27, 0.4) inset;
+    background-color: #fff; }
+
+.banner-ancho {
+  display: inline-block !important;
+  width: 40px;
+  height: 80px;
+  font-size: 40px;
+  color: #ffffff;
+  position: absolute !important;
+  top: 45%  !important;
+  text-align: center;
+  line-height: 80px !important; }
+
+.prev {
+  left: 19%; }
+
+.prev:hover {
+  background-color: rgba(0, 0, 0, 0.21); }
+
+.next {
+  left: 95%; }
+
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.21); }
+
+.submenu {
+  width: 732px;
+  height: 460px;
+  position: absolute;
+  left: 224px;
+  top: 0;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  background-image: url(http://www.imooc.com/static/img/home/textBg.png);
+  display: none; }
 
 /*# sourceMappingURL=%E8%BD%AE%E6%92%AD%E5%9B%BE.css.map */

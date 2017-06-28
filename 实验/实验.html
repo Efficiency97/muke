@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="../jquery.min.js"></script>
+    <script src="../慕课/jquery.min.js"></script>
     <!--<link rel="stylesheet" href="bootstrap.css">-->
     <style>
+
        .d1{
-           width: 100px;
-           height: 100px;
-           background-color: red;
+           color: #000 !important;
+
        }
-        .d2{
-            width: 100px;
-            height: 100px;
-            background-color: yellow;
-            position: absolute;
-            top: 0;
-            z-index:-111;
-        }
+       .d1{
+           color: red !important;
+       }
+
     </style>
-    <link rel="stylesheet" href="bootstrap.css">
 </head>
 <body>
-<div class="d1"></div>
-<div class="d2"></div>
+<input type="radio" name="radiobutton" value="radiobutton" checked> 喜欢
+<input type="radio" name="radiobutton" value="radiobutton"> 不喜欢
+<input type="radio" name="radiobutton" value="radiobutton"> 无所谓<br>
+
 </body>
 <script>
+    setTimeout(function () {
+        console.log("1")
+    },3000)
 </script>
 </html>
