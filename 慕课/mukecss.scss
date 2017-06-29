@@ -159,3 +159,42 @@
     z-index: -111;
   }
 }
+.path-banner{
+  width: 1200px;
+  height: 120px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius:5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+  .path-menu {
+    width: 1200px;
+    height: 120px;
+    list-style: none;
+    padding: 0;
+    li {
+      float: left;
+      width: 240px;
+      height: 120px;
+      overflow: hidden;
+      a{
+        position: relative;
+        transition: .3s all;
+        top: 0;
+      }
+      .red{
+
+      }
+      a:hover{
+        top: -3px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
