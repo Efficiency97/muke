@@ -198,3 +198,35 @@
     }
   }
 }
+//课程推荐
+.container-types{
+  width: 1200px;
+  padding-top: 36px;
+  margin: 0 auto;
+  h3.type-title{
+    position: relative;
+    font-size:20px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    color: #07111b;
+    a.type-title-more{
+      position: absolute;
+      top: 0;
+      right:  10px;
+      color: #93999f;
+      font-size: 14px;
+      text-decoration: none;
+    }
+  }
+  .container-types{
+    .types-content{
+      .index-card-container{
+        float: left;
+        width: 224px;
+        height: 228px;
+        background-color: #fff;
+        position: relative;
+      }
+    }
+  }
+}
