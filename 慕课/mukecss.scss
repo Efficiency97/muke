@@ -220,13 +220,14 @@
   }
   .container-types{
     .types-content{
-      .index-card-container{
-        float: left;
-        width: 224px;
-        height: 228px;
-        background-color: #fff;
-        position: relative;
-      }
+
     }
+  }
+  .index-card-container{
+    float: left;
+    width: 224px;
+    height: 228px;
+    background-color: #fff;
+    position: relative;
   }
 }
