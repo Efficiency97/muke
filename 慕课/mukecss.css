@@ -176,11 +176,96 @@
       color: #93999f;
       font-size: 14px;
       text-decoration: none; }
-  .container-types .index-card-container {
+  .container-types .types-content .index-card-container {
     float: left;
     width: 224px;
     height: 228px;
     background-color: #fff;
-    position: relative; }
+    position: relative;
+    margin-right: 20px;
+    border-radius: 4px; }
+    .container-types .types-content .index-card-container a.card-course {
+      display: block;
+      position: relative;
+      z-index: 100;
+      border-radius: inherit;
+      overflow: hidden;
+      text-decoration: none;
+      transition: all 0.5s linear 0s;
+      box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.3); }
+      .container-types .types-content .index-card-container a.card-course .card-course-top {
+        height: 48px;
+        padding: 0 20px;
+        overflow: hidden;
+        box-sizing: border-box; }
+        .container-types .types-content .index-card-container a.card-course .card-course-top span {
+          float: left;
+          line-height: 48px;
+          font-size: 12px;
+          color: #ffffff;
+          margin-right: 10px; }
+      .container-types .types-content .index-card-container a.card-course .card-course-content {
+        height: 180px;
+        background-color: #fff;
+        padding: 16px 24px;
+        box-sizing: border-box; }
+        .container-types .types-content .index-card-container a.card-course .card-course-content p:first-child {
+          font-size: 14px;
+          color: #000000;
+          word-break: break-all;
+          word-wrap: break-word;
+          overflow: hidden;
+          line-height: 24px;
+          min-height: 48px; }
+        .container-types .types-content .index-card-container a.card-course .card-course-content p:nth-child(2) {
+          font-size: 12px;
+          color: #93999f;
+          line-height: 24px;
+          margin: 8px 0; }
+        .container-types .types-content .index-card-container a.card-course .card-course-content .card-course-bottom {
+          font-size: 12px;
+          line-height: 24px;
+          margin-top: 14px; }
+          .container-types .types-content .index-card-container a.card-course .card-course-content .card-course-bottom .course-card-info {
+            float: left;
+            color: #93999f;
+            font-size: 12px;
+            line-height: 24px; }
+          .container-types .types-content .index-card-container a.card-course .card-course-content .card-course-bottom .course-card-prise {
+            float: right;
+            color: #f01414; }
+    .container-types .types-content .index-card-container .card-container-bg {
+      width: 224px;
+      height: 228px;
+      position: absolute;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      border-right: inherit;
+      overflow: hidden;
+      background-size: contain;
+      background-repeat: no-repeat; }
+  .container-types .types-content a.card-course:hover {
+    box-shadow: 0 8px 20px 0 rgba(7, 17, 27, 0.3); }
+  .container-types .types-content .index-card-container:last-child {
+    margin-right: 0; }
+
+.cart-color-red {
+  background: linear-gradient(270deg, rgba(255, 115, 155, 0.7), #ff739b); }
+
+.cart-color-purple {
+  background: linear-gradient(270deg, rgba(210, 115, 230, 0.7), #d273e6); }
+
+.cart-color-blue {
+  background: linear-gradient(270deg, rgba(75, 150, 220, 0.7), #4b96dc); }
+
+.cart-color-orange {
+  background: linear-gradient(270deg, rgba(255, 150, 0, 0.7), #ff9600); }
+
+.card-color-green {
+  background: linear-gradient(270deg, rgba(0, 185, 90, 0.7), #00b95a); }
+
+.card-color-cyan {
+  background: linear-gradient(270deg, rgba(0, 200, 200, 0.7), #00c8c8); }
 
 /*# sourceMappingURL=mukecss.css.map */
