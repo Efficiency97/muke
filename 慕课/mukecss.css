@@ -161,8 +161,9 @@
 
 .container-types {
   width: 1200px;
-  padding-top: 36px;
-  margin: 0 auto; }
+  padding-top: 20px;
+  margin: 0 auto;
+  height: 312px; }
   .container-types h3.type-title {
     position: relative;
     font-size: 20px;
@@ -267,5 +268,30 @@
 
 .card-color-cyan {
   background: linear-gradient(270deg, rgba(0, 200, 200, 0.7), #00c8c8); }
+
+.container-types-me {
+  width: 1200px;
+  padding-top: 36px;
+  margin: 0 auto; }
+  .container-types-me h3.types-title-me {
+    position: relative;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 24px;
+    color: #07111b; }
+    .container-types-me h3.types-title-me a.types-title-more-me {
+      position: absolute;
+      top: 0;
+      right: 10px;
+      color: #93999f;
+      font-size: 14px;
+      text-decoration: none; }
+  .container-types-me .types-content-left-me {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    width: 224px;
+    height: 348px;
+    border-radius: 4px; }
 
 /*# sourceMappingURL=mukecss.css.map */
