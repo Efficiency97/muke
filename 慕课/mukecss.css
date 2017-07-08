@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .nav-container {
   border-radius: 0px;
   background-color: transparent;
@@ -272,14 +273,15 @@
 .container-types-me {
   width: 1200px;
   padding-top: 36px;
+  height: 428px;
   margin: 0 auto; }
-  .container-types-me h3.types-title-me {
+  .container-types-me div.types-title-me {
     position: relative;
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 24px;
     color: #07111b; }
-    .container-types-me h3.types-title-me a.types-title-more-me {
+    .container-types-me div.types-title-me a.types-title-more-me {
       position: absolute;
       top: 0;
       right: 10px;
@@ -293,5 +295,151 @@
     width: 224px;
     height: 348px;
     border-radius: 4px; }
+    .container-types-me .types-content-left-me .types-left-content {
+      width: 224px;
+      height: 228px;
+      position: relative; }
+      .container-types-me .types-content-left-me .types-left-content a {
+        display: block;
+        width: 224px;
+        height: 228px;
+        padding: 24px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-decoration: none;
+        color: white; }
+        .container-types-me .types-content-left-me .types-left-content a .cart-part-tit1 {
+          font-size: 14px;
+          font-weight: lighter;
+          line-height: 20px; }
+        .container-types-me .types-content-left-me .types-left-content a .cart-part-tit2 {
+          font-size: 20px;
+          font-weight: 900;
+          font-family: '微软雅黑';
+          word-wrap: break-word;
+          line-height: 24px;
+          margin-top: 10px; }
+        .container-types-me .types-content-left-me .types-left-content a .cart-part-tit3 {
+          font-size: 12px;
+          font-weight: 200;
+          line-height: 14px;
+          margin-top: 36px; }
+    .container-types-me .types-content-left-me .types-left-recomended {
+      width: 224px;
+      height: 93px;
+      position: absolute;
+      bottom: 0;
+      padding: 0 24px 8px;
+      box-sizing: border-box; }
+      .container-types-me .types-content-left-me .types-left-recomended .recomended-item {
+        border-top: 1px solid white;
+        padding: 12px 3px; }
+        .container-types-me .types-content-left-me .types-left-recomended .recomended-item a {
+          font-size: 12px;
+          line-height: 28px;
+          display: inline-block;
+          color: #ffffff; }
+  .container-types-me .types-content-right-me {
+    width: 956px;
+    float: left; }
+    .container-types-me .types-content-right-me .types-right-content {
+      height: 100px;
+      margin-bottom: 20px; }
+      .container-types-me .types-content-right-me .types-right-content a {
+        position: relative;
+        margin-right: 20px;
+        float: left; }
+        .container-types-me .types-content-right-me .types-right-content a img {
+          display: block;
+          width: 468px;
+          height: 100px;
+          border-radius: 4px; }
+      .container-types-me .types-content-right-me .types-right-content a:nth-child(2) {
+        margin-right: 0; }
+  .container-types-me .types-right-courses .index-card-container {
+    float: left;
+    width: 224px;
+    height: 228px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 20px;
+    border-radius: 4px; }
+    .container-types-me .types-right-courses .index-card-container a.card-course {
+      display: block;
+      position: relative;
+      z-index: 100;
+      border-radius: inherit;
+      overflow: hidden;
+      text-decoration: none;
+      transition: all 0.5s linear 0s;
+      box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.3); }
+      .container-types-me .types-right-courses .index-card-container a.card-course .card-course-top {
+        height: 48px;
+        padding: 0 20px;
+        overflow: hidden;
+        box-sizing: border-box; }
+        .container-types-me .types-right-courses .index-card-container a.card-course .card-course-top span {
+          float: left;
+          line-height: 48px;
+          font-size: 12px;
+          color: #ffffff;
+          margin-right: 10px; }
+      .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content {
+        height: 180px;
+        background-color: #fff;
+        padding: 16px 24px;
+        box-sizing: border-box; }
+        .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content p:first-child {
+          font-size: 14px;
+          color: #000000;
+          word-break: break-all;
+          word-wrap: break-word;
+          overflow: hidden;
+          line-height: 24px;
+          min-height: 48px; }
+        .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content p:nth-child(2) {
+          font-size: 12px;
+          color: #93999f;
+          line-height: 24px;
+          margin: 8px 0; }
+        .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content .card-course-bottom {
+          font-size: 12px;
+          line-height: 24px;
+          margin-top: 14px; }
+          .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content .card-course-bottom .course-card-info {
+            float: left;
+            color: #93999f;
+            font-size: 12px;
+            line-height: 24px; }
+          .container-types-me .types-right-courses .index-card-container a.card-course .card-course-content .card-course-bottom .course-card-prise {
+            float: right;
+            color: #f01414; }
+    .container-types-me .types-right-courses .index-card-container .card-container-bg {
+      width: 224px;
+      height: 228px;
+      position: absolute;
+      z-index: 0;
+      left: 0;
+      top: 0;
+      border-right: inherit;
+      overflow: hidden;
+      background-size: contain;
+      background-repeat: no-repeat; }
+  .container-types-me .index-card-container:last-child {
+    margin-right: 0; }
+  .container-types-me .types-right-contents-one a {
+    margin: 0 !important; }
+    .container-types-me .types-right-contents-one a img {
+      width: 100% !important; }
+  .container-types-me .ios .types-content .index-card-container:nth-child(1) .course-content-container {
+    width: 224px;
+    height: 228px; }
+    .container-types-me .ios .types-content .index-card-container:nth-child(1) .course-content-container a {
+      width: 224px;
+      height: 228px;
+      padding: 24px;
+      display: block;
+      box-sizing: border-box;
+      border-radius: 4px; }
 
 /*# sourceMappingURL=mukecss.css.map */

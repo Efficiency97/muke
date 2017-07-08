@@ -328,11 +328,14 @@
 .card-color-cyan{
   background: linear-gradient(270deg,rgba(0,200,200,.7),#00c8c8);
 }
+//前端开发课程布局
 .container-types-me{
   width: 1200px;
   padding-top: 36px;
+  height: 428px;
   margin: 0 auto;
-  h3.types-title-me{
+  //标题
+  div.types-title-me{
     position: relative;
     font-size:20px;
     line-height: 20px;
@@ -347,6 +350,7 @@
       text-decoration: none;
     }
   }
+  //左边部分
   .types-content-left-me{
     position: relative;
     float: left;
@@ -354,5 +358,192 @@
     width: 224px;
     height: 348px;
     border-radius: 4px;
+    .types-left-content{
+      width: 224px;
+      height: 228px;
+      position: relative;
+      a{
+        display: block;
+        width: 224px;
+        height: 228px;
+        padding: 24px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        text-decoration: none;
+        color: rgba(255,255,255,6);
+        .cart-part-tit1{
+          font-size: 14px;
+          font-weight:lighter;
+          line-height: 20px;
+        }
+        .cart-part-tit2{
+          font-size: 20px;
+          font-weight:900;
+          font-family:'微软雅黑';
+          word-wrap: break-word;
+          line-height: 24px;
+          margin-top: 10px;
+        }
+        .cart-part-tit3{
+          font-size: 12px;
+          font-weight:200;
+          line-height: 14px;
+          margin-top: 36px;
+        }
+      }
+    }
+    .types-left-recomended{
+      width: 224px;
+      height: 93px;
+      position: absolute;
+      bottom: 0;
+      padding: 0 24px 8px;
+      box-sizing: border-box;
+      .recomended-item{
+        border-top: 1px solid rgba(255,255,255,4);
+        padding: 12px 3px;
+        a{
+          font-size: 12px;
+          line-height: 28px;
+          display: inline-block;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  //右边部分
+  .types-content-right-me{
+    width: 956px;
+    float: left;
+    .types-right-content{
+      height: 100px;
+      margin-bottom: 20px;
+      a{
+        position: relative;
+        margin-right: 20px;
+        float: left;
+        img{
+          display: block;
+          width: 468px;
+          height: 100px;
+          border-radius: 4px;
+        }
+      }
+      a:nth-child(2){
+        margin-right: 0;
+      }
+    }
+  }
+  .types-right-courses {
+    .index-card-container {
+      float: left;
+      width: 224px;
+      height: 228px;
+      background-color: #fff;
+      position: relative;
+      margin-right: 20px;
+      border-radius: 4px;
+      a.card-course {
+        display: block;
+        position: relative;
+        z-index: 100;
+        border-radius: inherit;
+        overflow: hidden;
+        text-decoration: none;
+        transition: all 0.5s linear 0s;
+        box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .3);
+        .card-course-top {
+          height: 48px;
+          padding: 0 20px;
+          overflow: hidden;
+          box-sizing: border-box;
+          span {
+            float: left;
+            line-height: 48px;
+            font-size: 12px;
+            color: #ffffff;
+            margin-right: 10px;
+          }
+        }
+        .card-course-content {
+          height: 180px;
+          background-color: #fff;
+          padding: 16px 24px;
+          box-sizing: border-box;
+          p:first-child {
+            font-size: 14px;
+            color: #000000;
+            word-break: break-all;
+            word-wrap: break-word;
+            overflow: hidden;
+            line-height: 24px;
+            min-height: 48px;
+          }
+          p:nth-child(2) {
+            font-size: 12px;
+            color: #93999f;
+            line-height: 24px;
+            margin: 8px 0;
+          }
+          .card-course-bottom {
+            font-size: 12px;
+            line-height: 24px;
+            margin-top: 14px;
+            .course-card-info {
+              float: left;
+              color: #93999f;
+              font-size: 12px;
+              line-height: 24px;
+            }
+            .course-card-prise {
+              float: right;
+              color: #f01414;
+            }
+          }
+        }
+      }
+      .card-container-bg {
+        width: 224px;
+        height: 228px;
+        position: absolute;
+        z-index: 0;
+        left: 0;
+        top: 0;
+        border-right: inherit;
+        overflow: hidden;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  .index-card-container:last-child{
+    margin-right: 0;
+  }
+  .types-right-contents-one{
+    a {
+      margin: 0 !important;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .ios{
+    .types-content{
+    .index-card-container:nth-child(1){
+      .course-content-container{
+        width: 224px;
+        height: 228px;
+        a{
+          width: 224px;
+          height: 228px;
+          padding: 24px;
+          display: block;
+          box-sizing: border-box;
+          border-radius: 4px;
+        }
+      }
+    }
+    }
+
   }
 }
