@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="../bootstrap-responsive.min.css">
     <link rel="stylesheet" href="mukecss.css">
     <link rel="stylesheet" href="轮播图.css">
-
 </head>
 <body>
 <!--导航栏部分-->
@@ -1057,9 +1056,59 @@
         </div>
     </div>
 </div>
+<div class="slidebar">
+    <a href="#" class="slidebar-msg">
+        <i class="glyphicon glyphicon-screenshot"></i>
+        <span>意见反馈</span>
+    </a>
+    <a href="#" class="slidebar-faq">
+        <i class="glyphicon glyphicon-question-sign"></i>
+        <span>常见问题</span>
+    </a>
+    <a href="#" class="slidebar-app">
+        <i class="glyphicon glyphicon-phone"></i>
+        <span>APP下载</span>
+        <div class="slidebar-app-box">
+        </div>
+    </a>
+    <a href="#" class="slidebar-weixin">
+        <i class="glyphicon glyphicon-time"></i>
+        <span>APP下载</span>
+        <span></span>
+    </a>
+    <a href="#" class="slidebar-up">
+        <i class="glyphicon glyphicon-chevron-up"></i>
+        <span>APP下载</span>
+    </a>
+</div>
+
 
 <script>
+function slideBar(fatherlabel) {
+    $(fatherlabel).mouseenter(function () {
+        $(fatherlabel).children("i").css('display','none')
+        $(fatherlabel).children("span").css('display',"block")
+        $(fatherlabel).children("div").css('transition',"block")
+    });
+    $(fatherlabel).mouseleave(function () {
+        $(fatherlabel).children("i").css('display','block')
+        $(fatherlabel).children("span").css('display',"none")
+        $(fatherlabel).children("div").css('display',"none")
 
+    })
+}
+slideBar(".slidebar-msg");
+slideBar(".slidebar-faq");
+slideBar(".slidebar-app");
+slideBar(".slidebar-weixin");
+$('.slidebar-app').hover(
+    function () {
+        $(".slidebar-app-box").addClass("qr-code-show")
+    },
+    function () {
+        $(".slidebar-app-box").removeClass("qr-code-show")
+    }
+    )
 </script>
 <script src="js/muke.js"></script>
 <script src="js/lunbo.js"></script>

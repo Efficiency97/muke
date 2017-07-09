@@ -527,23 +527,53 @@
       }
     }
   }
-  .ios{
-    .types-content{
-    .index-card-container:nth-child(1){
-      .course-content-container{
-        width: 224px;
-        height: 228px;
-        a{
-          width: 224px;
-          height: 228px;
-          padding: 24px;
-          display: block;
-          box-sizing: border-box;
-          border-radius: 4px;
-        }
-      }
+}
+.slidebar{
+  padding: 0 16px;
+  background-color: #ffffff;
+  position: fixed;
+  right: 0;
+  bottom: 50px;
+  z-index: 999;
+  box-shadow: 0 4px 12px 0 rgba(7,17,27,.1);
+  a{
+    display: block;
+    width: 26px;
+    height: 57px;
+    padding: 16px 0;
+    line-height: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-bottom: 1px solid  #edf1f2;
+    .glyphicon-screenshot,
+    .glyphicon-question-sign,
+    .glyphicon-phone,
+    .glyphicon-time,
+    .glyphicon-chevron-up{
+      font-size: 24px;
+      color: #b5b9bc;
+      font-weight: 100;
     }
+    span{
+      line-height: 12px;
+      display: none;
+      font-size: 12px;
+      color: red;
     }
+    .slidebar-app-box{
+      position: absolute;
+      width: 172px;
+      height: 212px;
+      background-color:blue;
+      right: 56px;
+      bottom: -2px;
 
+      opacity: 0;
+    }
+    .qr-code-show{
+      transition: opacity 1s !important;
+      opacity: 1;
+      display: block !important;
+    }
   }
 }
